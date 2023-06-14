@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.face{
+    
+}
+
+.connect{
+    color: rgba(0, 0, 0, 1);
+    font-size: 28px;
+    margin-left: 37px;
+}
+
+@media only screen and (max-width: 768px) {
+    .connect{
+        font-size: 20px;     
+    }
+  }
+
+.forgot{
+    text-decoration: none;
+}
+
+.butt1{
+    background-color: rgba(24, 119, 242, 1);
+}
+
+.inp1{
+    background-color: rgba(66, 183, 42, 1);
+    width: 200px;
+    height: 51px;
+    border: none;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 700;
+}
